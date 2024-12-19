@@ -7,9 +7,7 @@ Route::get('/', [Event::class, 'index']);
 
 Route::get('/events/create', [Event::class,'create']);
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/events/contact', [Event::class,'contact']); 
 
 Route::get('/products', function () {
 

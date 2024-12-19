@@ -41,6 +41,9 @@
                     <li class= "nav-item">
                         <a href="/" class="nav-link">Cadastrar  </a>
                     </li>
+                    <li class= "nav-item">
+                        <a href="/events/contact" class="nav-link">Contatos  </a>
+                    </li>
                     </ul>
                     </div>     
           </nav>

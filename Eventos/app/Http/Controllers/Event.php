@@ -18,11 +18,13 @@ class Event extends Controller
           'arr' => $arr,
           'nomes' => $nomes
         ]);
-    
     }
-
 
     public function create(){
         return view('events.create');
+    }
+    
+    public function contact(){
+        return view('events.contact');
     }
 }
